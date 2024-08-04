@@ -1,0 +1,168 @@
+\documentclass{article}
+
+\usepackage{tikz}
+\usepackage{soul}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{fontawesome}
+\usepackage[a4paper, portrait, margin=.5cm]{geometry}
+
+\usetikzlibrary{positioning, calc}
+
+\begin{document}
+
+
+\begin{tikzpicture}[remember picture,overlay]
+\fill[gray] ($(current page.north west)+(1.4cm,-1cm)$) rectangle  ($(current page.north east)+(-1.4cm, -7.25cm)$);
+\end{tikzpicture}
+\begin{tikzpicture}[remember picture,overlay]
+\fill[lightgray] ($(current page.north west)+(1.4cm,-1cm)$) rectangle  ($(current page.south west)+(7.7cm, 1.7cm)$);
+\end{tikzpicture}
+\begin{tikzpicture}[remember picture,overlay]
+\fill[gray!75] ($(current page.north west)+(1.4cm,-1cm)$) rectangle  ($(current page.north west)+(7.7cm, -7.25)$);
+\end{tikzpicture}
+
+\begin{tabular}{p{6.4cm}|p{9cm}}
+    \multicolumn{2}{c}{\vspace{10pt}}\\
+    \multicolumn{2}{c}{
+    \begin{tabular}{p{7.45cm}p{9cm}}
+         \raisebox{-.5\height}{\includegraphics[scale=0.37]{Profile.png}}&
+         \begin{tabular}{p{7cm}}
+            \centering{\setul{10pt}{.4pt}\ul{\Huge\textbf{Daniël de Waal}}}\\
+            \vspace{5pt}
+            \centering{\large\textit{C++ Programmer}}\\
+        \end{tabular}\\
+    \end{tabular}
+    }\\
+    \multicolumn{2}{c}{\vspace{5pt}}\\
+    \multicolumn{2}{c}{\rule{525pt}{1.5pt}}\\
+    \multicolumn{2}{c}{\vspace{10pt}}\\
+    
+    \begin{tabular}{p{7cm}}
+    \Large Socials/Contacts\\
+        \hspace{5pt}\faicon{phone}\hspace{5pt}\small (+27) 083-501-8793\\
+        \hspace{5pt}\faicon{envelope}\hspace{5pt}\small danieldewaal02@gmail.com\\
+        \hspace{5pt}\faicon{github}\hspace{5pt}\small\underline{\url{github.com/KrohnusMelavea}}\\
+
+        \hspace{5pt}\faicon{linkedin}\hspace{5pt}\small\underline{\url{linkedin.com/in/daniel-dewaal}}\\
+    
+    \vspace{20px}
+
+    \Large Noteworthy Github Repos\\
+        \hspace{5pt}\small- \underline{\href{https://github.com/KrohnusMelavea/VulkanBoiler}{VulkanBoiler}}: \raisebox{-.3\height}{\includegraphics[scale=.18]{cppicon.png}}, \raisebox{-.3\height}{\includegraphics[scale=.18]{hlslicon.png}}\\
+        \hspace{5pt}\small- \underline{\href{https://github.com/KrohnusMelavea/Wordle-CSharp}{Wordle}}: \raisebox{-.3\height}{\includegraphics[scale=.18]{csharpicon.png}}\\
+        \hspace{5pt}\small- \underline{\href{https://github.com/KrohnusMelavea/DDnD}{DDnD}}: \raisebox{-.3\height}{\includegraphics[scale=.18]{phpicon.png}}, \raisebox{-.3\height}{\includegraphics[scale=.15]{htmlicon.png}}, \raisebox{-.3\height}{\includegraphics[scale=.20]{jsicon.png}}, \raisebox{-.3\height}{\includegraphics[scale=.15]{cssicon.png}},  \raisebox{-.3\height}{\includegraphics[scale=.18]{mysqlicon.png}}\\
+        \hspace{5pt}\small- \underline{\href{https://github.com/KrohnusMelavea/lib_cpp}{lib\textunderscore cpp}}: \raisebox{-.3\height}{\includegraphics[scale=.18]{cppicon.png}}\\
+        \hspace{5pt}\small- \underline{\href{https://github.com/KrohnusMelavea/lib_asm}{lib\textunderscore asm}}: \raisebox{-.3\height}{\includegraphics[scale=.18]{asmicon.png}}\\
+
+    \vspace{20px}
+        
+    \Large Programming Languages\\
+    \begin{tabular}{ p{1.25cm} p{10cm} }
+        \hspace{5pt}\small- \raisebox{-.3\height}{\includegraphics[scale=.225]{phpicon.png}}&: Beginner/Intermediate\\
+        \hspace{5pt}\small- \raisebox{-.3\height}{\includegraphics[scale=.15]{htmlicon.png}}&: Intermediate\vspace{4pt}\\
+        \hspace{7pt}\small- \raisebox{-.3\height}{\includegraphics[scale=.18]{jsicon.png}}&: Intermediate\vspace{4pt}\\
+        \hspace{5pt}\small- \raisebox{-.3\height}{\includegraphics[scale=.18]{cssicon.png}}&: Beginner/Intermediate\\
+        \hspace{5pt}\small- \raisebox{-.3\height}{\includegraphics[scale=.18]{mysqlicon.png}}&: Intermediate\\
+        \hspace{5pt}- \raisebox{-.3\height}
+        {\includegraphics[scale=.18]{pythonicon.png}}&: Intermediate\\
+        \hspace{5pt}\small\small- \raisebox{-.3\height}{\includegraphics[scale=.18]{csharpicon.png}}&: Beginner/Intermediate\\
+        \hspace{5pt}\small\small- \raisebox{-.3\height}{\includegraphics[scale=.18]{cicon.png}}&: Intermediate\\
+        \hspace{5pt}- \raisebox{-.3\height}{\includegraphics[scale=.18]{cppicon.png}}&: Advanced\\
+        \hspace{5pt}- \raisebox{-.3\height}{\includegraphics[scale=.18]{asmicon.png}}&: Intermediate\\
+    \end{tabular}
+
+    \vspace{20px}
+    \end{tabular}
+
+    &
+    
+    \begin{tabular}{p{9cm}}
+
+    \vspace{5pt}
+    
+    \huge\setul{5pt}{.3pt}\ul{Education}\\
+        \vspace{15pt}
+
+        \Large BSc IT - SE (2024)\\
+        \begin{tabular}{p{9cm}p{1.75cm}}
+            \rule{0pt}{3ex}- Research Design and Methodology&63\% (B)\\
+            \rule{0pt}{3ex}- Object Oriented Systems Analysis and Design&88\% (A)\\
+            \rule{0pt}{3ex}- E-Commerce&91\% (A)\\
+            \rule{0pt}{3ex}- 4th Industrial Revolution&95\% (A)\\
+        \end{tabular}
+
+        \vspace{20pt}
+        
+        \Large BSc IT - SE (2023)\\
+        \begin{tabular}{p{9cm}p{1.75cm}}
+            \rule{0pt}{3ex}- Network Security&59\% (C)\\
+            \rule{0pt}{3ex}- Systems Analysis and Design&75\% (A)\\
+            \rule{0pt}{3ex}- DB Systems Design, Implementation and Management&78\% (A)\\
+            \rule{0pt}{3ex}- Software Process, Architecture Design and QA&86\% (A)\\
+            \rule{0pt}{3ex}- IT Project Management&89\% (A)\\
+            \rule{0pt}{3ex}- Programming in C\#&98\% (A)\\
+            \rule{0pt}{3ex}- DBMS's&100\% (A)\\
+            \rule{0pt}{3ex}- Data Structures and Algorithms in C\#&100\% (A)\\
+        \end{tabular}
+
+        \vspace{20pt}
+            
+        \Large BSc IT - SE (2022)\\
+        \begin{tabular}{p{9cm}p{1.75cm}}
+            \rule{0pt}{3ex}- Computer Networking and Security&69\% (B)\\
+            \rule{0pt}{3ex}- Introduction to Information Systems&76\% (A)\\
+            \rule{0pt}{3ex}- Introduction to Programming&77\% (A)\\
+            \rule{0pt}{3ex}- Technical Writing and Communication&80\% (A)\\
+            \rule{0pt}{3ex}- Human Computer Interaction&83\% (A)\\
+            \rule{0pt}{3ex}- Mathematics 1A&84\% (A)\\
+            \rule{0pt}{3ex}- Business English&84\% (A)\\
+            \rule{0pt}{3ex}- Computer Skills&90\% (A)\\
+            \rule{0pt}{3ex}- Advanced Information and Computer Skills&90\% (A)\\
+            \rule{0pt}{3ex}- Procedural Programming&100\% (A)\\
+        \end{tabular}
+
+        \vspace{30pt}
+    \end{tabular}\\
+\end{tabular}
+
+\pagebreak
+
+\begin{tikzpicture}[remember picture,overlay]
+\fill[lightgray] ($(current page.north west)+(1.4cm,-1cm)$) rectangle  ($(current page.south west)+(7.7cm, 1.7cm)$);
+\end{tikzpicture}
+
+\begin{tabular}{p{6.4cm}|p{9cm}}
+    \vspace{20px}
+
+    \begin{tabular}{p{7cm}}
+        \Large Skills\\
+            \hspace{5pt}\small- Low-Level Programming\\
+            \hspace{5pt}\small- Low-Level Graphics Programming\\
+
+        \vspace{20px}
+            
+        \Large Hobbies\\
+            \hspace{5pt}\small- Piano\\
+            \hspace{5pt}\small- Gaming\\
+            \hspace{5pt}\small- Weightlifting\\
+            \hspace{5pt}\small- Programming\\
+    \end{tabular}
+
+    &
+
+    \vspace{30pt}
+    
+    \begin{tabular}{p{9cm}}
+        \Large IGCSE (2020)\\
+        \begin{tabular}{p{9cm}p{1.75cm}}
+            \rule{0pt}{3ex}- Afrikaans&79\% (B)\\
+            \rule{0pt}{3ex}- Mathematics (Pure + Mechanics)&80\% (A)\\
+            \rule{0pt}{3ex}- English Home Language&84\% (A)\\
+            \rule{0pt}{3ex}- Physics&85\% (A)\\
+            \rule{0pt}{3ex}- Computer Science&90\% (A+)\\
+        \end{tabular}\\
+    \end{tabular}\\
+\end{tabular}
+
+\end{document}
